@@ -12,7 +12,7 @@ import asyncio
 
 import csv
 
-MY_GUILD = discord.Object(id=int(getenv("GUILD_ID")))  # replace with your guild id
+MY_GUILD = discord.Object(id=int(getenv("GUILD_ID")))
 
 
 class MyClient(discord.Client):
